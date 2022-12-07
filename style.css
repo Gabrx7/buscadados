@@ -1,0 +1,131 @@
+
+/* INFORMAÇÕES ESTRUTURAIS */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #cacaca;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    padding: 30px;
+    text-align: center;
+    background-color: #9b9b9b;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #9b9b9b;
+    border: #000000 2px solid;
+    border-radius: 10%;
+}
+
+button:hover{
+    transition-duration: 0.7s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #777777;
+    border: #000000 2px solid;
+    border-radius: 10%;
+}
+
+p{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+/* MEDIAS */
+ @media (min-width: 1029px){
+    p{
+        font-size: 30px;
+    }
+    
+    h1{
+        font-size: 40px;
+    }
+    
+    h3{
+        font-size: 35px;
+    }
+    .numvalor{
+        font-size: 50px;
+    }    
+ }
+
+ @media (min-width: 1639px){
+    p{
+        font-size: 40px;
+    }
+    
+    h1{
+        font-size: 50px;
+    }
+    
+    h3{
+        font-size: 45px;
+    }
+    .numvalor{
+        font-size: 60px;
+    }    
+ }
+
+
+/* INFORMAÇÕES SOBRE DIVS */
+
+.info1{
+    margin: 15px;
+}
+
+.info2{
+    margin: 15px;
+}
+
+.valor{
+    margin: 15px;
+}
+
+.numvalor{ /*Tamanho do valor principal*/
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+
+
+.atendentes{
+    margin: 15px;
+}
+
+.servidores{
+    margin: 15px;
+}
+
+.b1{ /*BOTÕES INDIVIDUAIS*/
+    margin: 15px;
+}
+
+.responsabilidade{
+    margin: 15px;
+}
